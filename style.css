@@ -32,7 +32,7 @@ body {
 
 p {
   margin: 10px 0;
-  font-size: 18px;
+  font-size: 40px;
   color: rgb(210, 48, 75);
 }
 
@@ -53,7 +53,7 @@ p {
 .writer {
   font-family: Arial, sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 30px;
   margin-top: 20px;
   color: #000000;
 }
