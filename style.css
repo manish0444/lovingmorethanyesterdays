@@ -1,16 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
+ 
+    content: "";
+    background-image: url('love.jfif'); 
+ 
 }
 
 .wrapper {
   width: 60%;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: pink;
+  border: 50px solid #f78989;
   margin-top: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -20,29 +21,41 @@ body {
   padding: 20px;
 }
 
-.letter {
+.love-container {
   padding: 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #eee;
+  background-color: #f5e5f2;
+  border: 1px solid pink;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  
 }
 
 p {
   margin: 10px 0;
+  font-size: 18px;
+  color: rgb(210, 48, 75);
+}
+
+.cursive {
+  font-family: 'cursive', sans-serif; /* You can replace 'cursive' with an appropriate cursive font */
 }
 
 .address {
-  font-family: 'Dancing Script', cursive;
-  font-size: 24px;
+  margin-top: 20px; /* Adjust the margin as needed */
 }
 
+.love-icon::before {
+  content: '\2764'; /* Unicode for the red heart symbol */
+  color: red;
+  font-size: 20px; /* Adjust the size as needed */
+  margin: 0 5px; /* Adjust the spacing between the text and icons */
+}
 .writer {
   font-family: Arial, sans-serif;
   font-style: italic;
   font-size: 18px;
   margin-top: 20px;
-  color: #888;
+  color: #000000;
 }
 
 a {
